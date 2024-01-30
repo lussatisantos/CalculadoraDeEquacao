@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalculadoraDeEquacao"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Calculadora de Equacao" Height="300" Width="440">
+    <Grid Background="#FFD4CECE">
+        <Label Content="CALCULADORA DE EQUAÇÃO DO 2º GRAU" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" Width="249"/>
+
+        <Label Content="Variáveis" HorizontalAlignment="Left" Margin="30,51,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.155,2.845"/>
+        <TextBox x:Name="ax2" HorizontalAlignment="Left" Margin="76,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57" Height="26"/>
+        <Label Content="ax2" HorizontalAlignment="Left" Margin="36,77,0,0" VerticalAlignment="Top" Height="31"/>
+        <Label Content="bx" HorizontalAlignment="Left" Margin="36,113,0,0" VerticalAlignment="Top" Height="31"/>
+        <TextBox x:Name="bx" HorizontalAlignment="Left" Margin="76,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" Height="26"/>
+        <Label Content="c" HorizontalAlignment="Left" Margin="40,152,0,0" VerticalAlignment="Top" Height="30" RenderTransformOrigin="1.625,0.485"/>
+        <TextBox x:Name="cx" HorizontalAlignment="Left" Margin="76,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" Height="26"/>
+        <Label Content="Resultado" HorizontalAlignment="Left" Margin="246,51,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.155,2.845"/>
+        <TextBox x:Name="txtResultado" HorizontalAlignment="Left" Margin="176,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" IsEnabled="False" Height="98"/>
+        <Button x:Name="btnCalcular" Content="Calcular" HorizontalAlignment="Left" Margin="40,204,0,0" VerticalAlignment="Top" Width="334" Click="btnCalcular_Click"/>
 
     </Grid>
 </Window>
