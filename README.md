@@ -4,4 +4,4 @@ Calculator of Second degree Equation is an applicative to educations focus that 
 
 ## How do you use ?
 
-<img src="">
+<img src="img/short.png">
